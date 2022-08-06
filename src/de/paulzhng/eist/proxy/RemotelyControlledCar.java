@@ -1,6 +1,6 @@
 package de.paulzhng.eist.proxy;
 
-public class Car implements ICar {
+public class RemotelyControlledCar implements Car {
 
     private boolean started;
 

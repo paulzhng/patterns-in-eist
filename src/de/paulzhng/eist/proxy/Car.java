@@ -1,6 +1,6 @@
 package de.paulzhng.eist.proxy;
 
-public interface ICar {
+public interface Car {
     void start();
     void stop();
     void drive();

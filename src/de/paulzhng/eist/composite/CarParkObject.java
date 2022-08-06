@@ -2,8 +2,8 @@ package de.paulzhng.eist.composite;
 
 import java.util.List;
 
-public abstract class CarParkObject {
+public interface CarParkObject {
 
-    abstract List<Car> getCars();
+    List<Car> getCars();
 
 }

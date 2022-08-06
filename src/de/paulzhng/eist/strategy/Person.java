@@ -1,18 +1,23 @@
 package de.paulzhng.eist.strategy;
 
-public class Client {
+public class Person {
 
     private Wealth wealth;
+    private Car car;
 
-    public Client(Wealth wealth) {
+    public Person(Wealth wealth) {
         this.wealth = wealth;
     }
 
-    public Car chooseCar() {
-        Context context = new Context();
-        context.setWealth(wealth);
-        new Policy(context).configure();
-        return context.getCar();
+    public Wealth getWealth() {
+        return wealth;
     }
 
+    public Car getCar() {
+        return car;
+    }
+
+    public void setCar(Car car) {
+        this.car = car;
+    }
 }

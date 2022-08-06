@@ -1,4 +1,4 @@
-package de.paulzhng.eist.composite;
+package de.paulzhng.eist.templatemethod;
 
 public abstract class Car {
 
